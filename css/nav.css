@@ -1,0 +1,26 @@
+header{
+    position: relative;
+    top: 0;
+    border: 0;
+}
+.container{
+    padding-top: 0;
+}
+header .anim{
+    position: absolute;
+    top: -123px;
+    left: -231px;
+}
+.container .forms{
+    position: relative;
+}
+.container .forms .animt{
+    position: absolute;
+    right: -200px;
+    top: 430px;
+}
+@media (max-width: 930px){
+    header .nav .list-item .list-ul {
+        border-top: 1px solid #ddd;
+    }
+}
